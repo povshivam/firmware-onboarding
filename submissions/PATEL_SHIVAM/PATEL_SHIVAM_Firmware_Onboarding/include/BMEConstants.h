@@ -9,7 +9,7 @@ namespace BMEConstants {
     constexpr uint8_t I2C_ADDRESS = 0x76;
 
     // SPI
-    constexpr uint8_t SPI_CS_PIN = 10;
+    constexpr uint8_t SPI_CS_PIN = 13;
 
     // LED Controller
     constexpr uint8_t LED_PIN = LED_BUILTIN;
@@ -18,5 +18,5 @@ namespace BMEConstants {
 
     constexpr unsigned long SLOW_BLINK_MS = 1000;
     constexpr unsigned long MEDIUM_BLINK_MS = 500;
-    constexpr unsigned long FAST_BLINK_MS = 200;
+    constexpr unsigned long FAST_BLINK_MS = 100;
 }
